@@ -1,9 +1,11 @@
 package collection;
 
 import java.util.ArrayList;
-import java.util.Set;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class Collection1
 {
@@ -27,6 +29,32 @@ public class Collection1
 			set.add("Good");
 			set.add("Morning");
 			set.add("Evening");
+			
+			
+			//a[]=10,30,20,30,50,60,20,10,40
+			//10,30,20,50,60,40
+			int a[]=new int[]{10,30,20,30,50,60,20,10,40};
+//			HashSet<Integer> lhs=new HashSet();
+//			for(int a1:a)
+//			{
+//				lhs.add(a1);
+//			}
+//			System.out.println(lhs);
+			ArrayList<Integer> arrayList=new ArrayList();
+			for(int a1:a)
+			{
+				if(!arrayList.contains(a1))
+				{
+					arrayList.add(a1);
+				}
+			}
+			System.out.println(arrayList);
+			Map<String,String>map=new LinkedHashMap();
+			map.put("name","Sahithi");
+			
+			System.out.println(map);
+			
+			
 			
 			
 	}

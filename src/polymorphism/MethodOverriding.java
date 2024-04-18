@@ -7,8 +7,8 @@ public class MethodOverriding
 	{
 		// TODO Auto-generated method stub
 		//Saisri s=new Saisri();
-		Sahithi s=new Saisri();//Upcasting
-		Saisri s1=(Saisri)new Sahithi();//Downcastin
+		Sahithi s=new Sahithi();//Upcasting
+		
 		
 		s.marry();
 

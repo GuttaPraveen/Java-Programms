@@ -3,6 +3,7 @@ package constructor;
 public class ParameterizedConstructor
 {
 	static int sum;
+	ParameterizedConstructor(){System.out.println("Hello");}
 	ParameterizedConstructor(int a,int b)
 	{
 		sum=a+b;
@@ -16,6 +17,7 @@ public class ParameterizedConstructor
 	public static void main(String[] args)
 	{
 		// TODO Auto-generated method stub
+		ParameterizedConstructor p3=new ParameterizedConstructor();
 		ParameterizedConstructor p=new ParameterizedConstructor(10,20);
 		ParameterizedConstructor p1=new ParameterizedConstructor(100,200);
 

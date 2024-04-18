@@ -1,4 +1,4 @@
-package abstraction;
+/*package abstraction;
 
 public class MethodHiding
 {
@@ -32,4 +32,4 @@ class full_Emp extends Employee
 	public void calsal() {
 		System.out.println(wage*days);
 	}
-}
+}*/

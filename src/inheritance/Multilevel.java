@@ -7,9 +7,9 @@ public class Multilevel {
 		// TODO Auto-generated method stub
 		Child21 c=new Child21();
 		Child12 c1=new Child12();
-		c.m1();
-		c1.m2();
-		c.m3();
+		c.m1();//Hello
+		c1.m2();//Child1
+		c.m3();//Child2
 
 	}
 

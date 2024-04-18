@@ -1,0 +1,2 @@
+00001	Lakshmi	50000.00	2023-10-07	Lakshmi Reddy 
+00002	Praveen	45000.00	2023-10-07	Praveen Gutta

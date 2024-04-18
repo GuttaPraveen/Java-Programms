@@ -12,6 +12,10 @@ public class NoOfWords
 		System.out.println("Enter a string: ");
 		String s=sc.nextLine();
 		int words=0;
+		/*
+		String s1[]=s.split(" ");
+		int res=s1.length;
+		System.out.println(res);*/
 		for(int i=0;i<s.length()-1;i++)
 		{
 			if(s.charAt(i)==' ')

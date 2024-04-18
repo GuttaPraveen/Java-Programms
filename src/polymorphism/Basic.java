@@ -17,7 +17,7 @@ public class Basic
 	{
 		System.out.println(a+b);
 	}
-
+		
 }
 /*
  	Polymorphism :Polymorphism is the ability of an object to take on many forms. 

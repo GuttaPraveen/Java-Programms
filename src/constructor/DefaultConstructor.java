@@ -15,7 +15,9 @@ public class DefaultConstructor
 	{
 		// TODO Auto-generated method stub
 		
-		DefaultConstructor o=new DefaultConstructor();
+		DefaultConstructor o1=new DefaultConstructor();
+		DefaultConstructor o2=new DefaultConstructor();
+
 	}
 
 }
